@@ -1,0 +1,6 @@
+Plugin Name -- Easy Digital Downloads for Caldera Forms
+Text domain -- cf-edd
+Function prefix -- cf_edd
+Class prefix - n/a
+Root namespace -- n/a
+Filter Prefix -- n/a
