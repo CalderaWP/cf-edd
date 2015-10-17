@@ -5,7 +5,7 @@ Requires at least: 4.1
 Tested up to: 4.4
 Stable tag: 0.1.0
 
-Manage Easy Digitial
+Integrate Easy Digital Downloads with Caldera Forms.
 
 == Description ==
 Integrate [Easy Digital Downloads](https://easydigitaldownloads.com/) with [Caldera Forms](https://CalderaWP.com).
