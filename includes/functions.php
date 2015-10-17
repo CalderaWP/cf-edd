@@ -99,7 +99,8 @@ function cf_edd_get_downloads_by_licensed_user( $user_id = null, $include_expire
 		if ( ! empty( $licenses ) ) {
 			foreach( $licenses as $license ) {
 				if ( ! $include_expired ) {
-					if ( false == get_post_meta( $id, '_edd_sl_status', true ) ) {
+					$status = get_post_meta( $license[ 'post_id' ], '_edd_sl_status', true );
+					if ( false ==  $status ) {
 						continue;
 					}
 
