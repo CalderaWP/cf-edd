@@ -1,24 +1,26 @@
-=== EDD For Caldera Forms ===
+=== Caldera Forms EDD ===
 Contributors: Shelob9
 Tags: Caldera Forms, wpform, forms, eCommerce, EDD, Easy Digital Downloads
 Requires at least: 4.1
 Tested up to: 4.4
 Stable tag: 0.1.0
 
-Integrate Easy Digital Downloads with Caldera Forms
+Manage Easy Digitial
 
 == Description ==
-Integrate Easy Digital Downloads with Caldera Forms.
+Integrate [Easy Digital Downloads](https://easydigitaldownloads.com/) with [Caldera Forms](https://CalderaWP.com).
 
-At this time integrates with Easy Digital Downloads Software Licensing only. Allows any select field to be a selector for all downloads with an active license of a user (by default the current user.)
+At this time integrates with [Easy Digital Downloads Software Licensing](https://easydigitaldownloads.com/downloads/software-licensing/) only. Allows any select field to be a selector for all downloads with an active license of a user (by default the current user.)
 
-A free plugin by [CalderaWP](https://CalderaWP.com)
+Coming Soon: Easy Digital Downloads checkout with Caldera Forms
 
-This plugin is on Github: https://github.com/CalderaWP/cf-edd
+A free plugin by [CalderaWP](https://CalderaWP.com). Learn more at [https://calderawp.com/downloads/edd-for-caldera-forms/](https://calderawp.com/downloads/edd-for-caldera-forms/)
+
+This plugin is on Github: [https://github.com/CalderaWP/cf-edd](https://github.com/CalderaWP/cf-edd)
 
 == Installation ==
 Install plugin
-Intsall Caldera Forms
+Install Caldera Forms
 Install Easy Digital Downloads
 Install Easy Digital Downloads Software Licensing
 Eat More Kale
@@ -28,8 +30,8 @@ Eat More Kale
 = Does It Do Anything Besides Licensing Dropdown? =
 No.
 
-= Will It Ever =
-Maybe.
+= When Will It Power EDD Checkout =
+Soon.
 
 == Screenshots ==
-
+1. Screenshot

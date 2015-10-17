@@ -7,7 +7,7 @@
  * @copyright 2015 Josh Pollock for CalderaWP
  *
  * @wordpress-plugin
- * Plugin Name: EDD For Caldera Forms
+ * Plugin Name: Caldera Forms EDD
  * Plugin URI:  https://calderawp.com/downloads/edd-for-caldera-forms/
  * Description: Integrate Easy Digital Downloads with Caldera Forms
  * Version:     0.1.0
