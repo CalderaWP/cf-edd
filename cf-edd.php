@@ -32,9 +32,10 @@ define( 'CF_EDD_VER', '0.1.0' );
 // add filter to register addon with Caldera Forms
 add_filter('caldera_forms_get_form_processors', 'cf_edd_register');
 
-//add_filter( 'caldera_forms_render_get_field', 'cf_edd_license_field', 15, 2 );
+// the action needs to be on the submit start as well. but its after the fields. changing in CF for no use this.
+add_filter( 'caldera_forms_render_get_field', 'cf_edd_maybe_setup_licensed_field', 15, 2 );
 
-add_action( 'caldera_forms_render_start', 'cf_edd_maybe_setup_licensed_field' );
+//add_action( 'caldera_forms_render_start', 'cf_edd_maybe_setup_licensed_field' );
 
 // pull in the functions file
 include CF_EDD_PATH . 'includes/functions.php';
