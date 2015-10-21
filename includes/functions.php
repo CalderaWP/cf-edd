@@ -41,10 +41,34 @@ function cf_edd_register($processors){
  *
  * @param array $form Form config
  */
-function cf_edd_maybe_setup_licensed_field( $form ) {
-	include_once( CF_EDD_PATH .'includes/CF_EDD_License_Field.php' );
-	new CF_EDD_License_Field( $form );
+function cf_edd_maybe_setup_licensed_field( $field, $form ) {
+	// does this form have the processor?
+	if( $processors = Caldera_Forms::get_processor_by_type( 'edd-licensed-downloads', $form ) ){
+		foreach( $processors as $processor ){
+			if( $field['ID'] === $processor['config']['edd_licensed_downloads'] ){
+				// ye this a bound EDD field
+				// over engineerd using that CF_EDD_License_Field class can do it here since we now have the whole config of an active processor.
+				$user_id = null;
+				if ( ! empty( $config[ 'config' ][ 'edd_licensed_downloads_user' ] ) && 0 < absint( $config[ 'config' ][ 'edd_licensed_downloads_user' ] ) ) {
+					$user_id = $config[ 'config' ][ 'edd_licensed_downloads_user' ];
+				}
+				$downloads = cf_edd_get_downloads_by_licensed_user( $user_id );
+				$field[ 'config' ][ 'option' ] = array();
+				if ( ! empty( $downloads ) ) {
+					foreach( $downloads as $id => $title ) {
+						$field[ 'config' ][ 'option' ][ ] = array(
+							'label' => esc_html( $title ),
+							'value' => (int) $id,
+						);
+					}
+				}
+
+			}
+		}
+	}
+	return $field;
 }
+
 
 /**
  *  Process edd-licensed-downloads processor to validate setup
@@ -57,7 +81,7 @@ function cf_edd_maybe_setup_licensed_field( $form ) {
  * @return array|void
  */
 function cf_edd_validate( $config, $form ) {
-	$value = Caldera_Forms::do_magic_tags( $config[ 'edd_licensed_downloads' ] );
+	$value = Caldera_Forms::get_field_data( $config[ 'edd_licensed_downloads' ], $form ); // direct field bind can get data, magic tags wont work.
 	$_user = Caldera_Forms::do_magic_tags( $config[  'edd_licensed_downloads_user'] );
 	if ( 0 < absint( $_user ) ) {
 		$user = $_user;
