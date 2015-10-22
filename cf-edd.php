@@ -10,7 +10,7 @@
  * Plugin Name: Caldera Forms EDD
  * Plugin URI:  https://calderawp.com/downloads/edd-for-caldera-forms/
  * Description: Integrate Easy Digital Downloads with Caldera Forms
- * Version:     0.1.0
+ * Version: 1.1.0
  * Author:      CalderaWP <Josh@CalderaWP.com>
  * Author URI:  http://calderawp.com
  * Text Domain: cf-postmatic
@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 // define constants
 define( 'CF_EDD_PATH',  plugin_dir_path( __FILE__ ) );
 define( 'CF_EDD_URL',  plugin_dir_url( __FILE__ ) );
-define( 'CF_EDD_VER', '0.1.0' );
+define( 'CF_EDD_VER', '1.1.0' );
 
 // add filter to register addon with Caldera Forms
 add_filter('caldera_forms_get_form_processors', 'cf_edd_register');
