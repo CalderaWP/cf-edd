@@ -11,7 +11,7 @@
  * Plugin URI:  https://calderawp.com/downloads/edd-for-caldera-forms/
  * Description: Integrate Easy Digital Downloads with Caldera Forms
  * Version:     0.1.0
- * Author:      Josh Pollock <Josh@CalderaWP.com>
+ * Author:      CalderaWP <Josh@CalderaWP.com>
  * Author URI:  http://calderawp.com
  * Text Domain: cf-postmatic
  * License:     GPL-2.0+

@@ -1,5 +1,5 @@
 === Caldera Forms EDD ===
-Contributors: Shelob9
+Contributors: Desertsnowman, Shelob9,
 Tags: Caldera Forms, wpform, forms, eCommerce, EDD, Easy Digital Downloads
 Requires at least: 4.1
 Tested up to: 4.4
