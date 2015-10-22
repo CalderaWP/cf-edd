@@ -86,7 +86,7 @@ module.exports = function (grunt) {
                     allowEmpty: true
                 },
                 files: {
-                    src: [ 'package.json', 'cf-postmatic.php', 'releases/<%= pkg.name %>-<%= pkg.version %>.zip' ]
+                    src: [ 'package.json', 'cf-edd.php', 'releases/<%= pkg.name %>-<%= pkg.version %>.zip' ]
                 }
             }
         },
@@ -101,7 +101,7 @@ module.exports = function (grunt) {
         },
         replace: {
             core_file: {
-                src: [ 'cf-postmatic.php' ],
+                src: [ 'cf-edd.php' ],
                 overwrite: true,
                 replacements: [{
                     from: /Version:\s*(.*)/,

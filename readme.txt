@@ -3,7 +3,7 @@ Contributors: Desertsnowman, Shelob9,
 Tags: Caldera Forms, wpform, forms, eCommerce, EDD, Easy Digital Downloads
 Requires at least: 4.1
 Tested up to: 4.4
-Stable tag: 0.1.0
+Stable tag: 1.1.0
 
 Integrate Easy Digital Downloads with Caldera Forms.
 
@@ -35,3 +35,8 @@ Soon.
 
 == Screenshots ==
 1. Screenshot
+
+== Changelog ==
+
+= 1.1.0 =
+* Fixed bug causing false validation error.
