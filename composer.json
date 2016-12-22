@@ -1,0 +1,27 @@
+{
+  "name": "calderawp/cf-edd",
+  "description": "Caldera Forms fields for Easy Digital Downloads",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress"
+  ],
+  "minimum-stability": "dev",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Josh Pollock",
+      "homepage": "https://JoshPress.net",
+      "role": "Developer"
+    }
+  ],
+  "repositories" :[
+    {
+      "type": "git",
+      "url": "https://github.com/CalderaWP/cf-edd-fields"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "calderawp/cf-edd-fields": "dev-master"
+  }
+}

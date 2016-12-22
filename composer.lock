@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "83b800488cb64ad5ef6233e5b71644cd",
+    "content-hash": "7b80a5ee8a0a92a754b846f0275403ac",
+    "packages": [
+        {
+            "name": "calderawp/cf-edd-fields",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CalderaWP/cf-edd-fields",
+                "reference": "3922e88898d0e216f5b069068a7393cbc94c83a4"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "calderawp\\cfeddfields\\": "src"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Pollock",
+                    "homepage": "https://JoshPress.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Field auto-population shared between",
+            "time": "2016-12-21 23:47:22"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "calderawp/cf-edd-fields": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
