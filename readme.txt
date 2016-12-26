@@ -10,11 +10,19 @@ Integrate Easy Digital Downloads with Caldera Forms.
 == Description ==
 Integrate [Easy Digital Downloads](https://easydigitaldownloads.com/) with [Caldera Forms](https://Calderawp.com/downloads/caldera-forms?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd).
 
-At this time integrates with [Easy Digital Downloads Software Licensing](https://Calderawp.com/downloads/caldera-forms?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd) only. Allows any select field to be a selector for all downloads with an active license of a user (by default the current user.)
+The free version integrates with [Easy Digital Downloads Software Licensing](https://Calderawp.com/downloads/caldera-forms?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd) only. Allows any select field to be a selector for all downloads with an active license of a user (by default the current user.) Upgrade to pro to [the pro version for payments and more](https://calderaforms.com/downloads/easy-digital-downloads-for-caldera-forms-pro?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd)
 
-Coming Soon: Easy Digital Downloads checkout with Caldera Forms
+= Features =
 
-A free plugin by [CalderaWP](https://CalderaWP.com?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd). Learn more at [https://calderawp.com/downloads/edd-for-caldera-forms?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd](In our documentation).
+> * [EDD Software Licensing](https://easydigitaldownloads.com/downloads/software-licensing/) Field
+> * [Easy Digital Downloads](https://easydigitaldownloads.com/) Select field auto-population
+> * EDD Payments via Caldera Forms ( [Pro Version](https://calderaforms.com/downloads/easy-digital-downloads-for-caldera-forms-pro?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd) )
+> * Custom EDD Bundles Built With Caldera Forms ( [Pro Version](https://calderaforms.com/downloads/easy-digital-downloads-for-caldera-forms-pro?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd) )
+> * Dynamically Priced EDD Bundles ( [Pro Version](https://calderaforms.com/downloads/easy-digital-downloads-for-caldera-forms-pro?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd) )
+
+= More Information =
+
+This is a free plugin by [CalderaWP](https://CalderaWP.com?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd). Learn more at [https://calderawp.com/downloads/edd-for-caldera-forms?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd](In our documentation).
 
 This plugin is on Github: [https://github.com/CalderaWP/cf-edd](https://github.com/CalderaWP/cf-edd)
 
@@ -40,3 +48,11 @@ Soon.
 
 = 1.1.0 =
 * Fixed bug causing false validation error.
+
+= 1.1.1 =
+* Updated readme to refelct pro vs free
+* Version 1.2.0 will have more changes.
+
+== Upgrade Notice ==
+= 1.1.1
+* Important: Version 1.2.0 of Caldera Forms EDD (free version) is coming soon and will only support PHP 5.4 or later! 
