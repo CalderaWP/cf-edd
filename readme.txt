@@ -82,7 +82,6 @@ The pro version does: [Caldera Forms EDD Pro](https://calderaforms.com/downloads
 = 1.1.1
 * Important: Version 1.2.0 of Caldera Forms EDD (free version) is coming soon and will only support PHP 5.4 or later!
 
-=======
 = 1.2.0 =
 * New features, learn more(https://calderaforms.com/updates/cf-edd-1-2-0/?utm_source=dotOrg&utm_medium=plugins&utm_campaign=cf-edd
 * IMPORTANT: Now requires PHP 5.4 or later. PHP 5.6 or PHP 7 recommended.

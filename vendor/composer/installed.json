@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/CalderaWP/cf-edd-fields",
-            "reference": "3922e88898d0e216f5b069068a7393cbc94c83a4"
+            "reference": "f50d4fa109614917480fbce4e86410fe18e2b3f9"
         },
         "require": {
             "php": ">=5.4.0"
         },
-        "time": "2016-12-21 23:47:22",
+        "time": "2016-12-24 04:14:25",
         "type": "library",
         "installation-source": "source",
         "autoload": {
