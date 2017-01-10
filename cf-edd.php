@@ -29,13 +29,15 @@ define( 'CF_EDD_PATH',  plugin_dir_path( __FILE__ ) );
 define( 'CF_EDD_URL',  plugin_dir_url( __FILE__ ) );
 define( 'CF_EDD_VER', '1.1.1' );
 
-// add filter to register addon with Caldera Forms
-add_filter('caldera_forms_get_form_processors', 'cf_edd_register');
+add_filter( 'plugins_loaded', 'cf_edd_init', 0 );
+function cf_edd_init(){
+	if( ! defined( 'CF_EDD_PRO_PATH' ) && version_compare( PHP_VERSION, '5.4.0', '>=' ) ){
+		include_once  CF_EDD_PATH . '/bootstrap.php';
 
-// we can filter the field and check that form has the processor directly. or just return the field intact if not
-add_filter( 'caldera_forms_render_get_field', 'cf_edd_maybe_setup_licensed_field', 50, 2 );
+	}
 
-// pull in the functions file
-include CF_EDD_PATH . 'includes/functions.php';
+}
+
+
 
 
